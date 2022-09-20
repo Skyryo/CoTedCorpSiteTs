@@ -19,7 +19,7 @@
     <div class="header container-1280">
         <div class="header-img">
             <router-link to="/">
-                <img src="../assets/img/headerLogo.png"  style="height:40px" alt="OASISロゴ">
+                <img src="./assets/img/headerLogo.png"  style="height:40px" alt="OASISロゴ">
             </router-link>
         </div>
         <hambarger-menu />
