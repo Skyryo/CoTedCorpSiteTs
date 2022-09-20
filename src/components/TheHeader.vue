@@ -3,15 +3,15 @@
     const navItems = [
         {
             value:'企業理念',
-            href:'#section-01'
+            href:'/#section-01'
         },
         {
             value:'代表メッセージ',
-            href:'#section-02'
+            href:'/#section-02'
         },
         {
             value:'事業内容',
-            href:'#section-03'
+            href:'/#section-03'
         },
     ]
 </script>

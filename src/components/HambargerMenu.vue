@@ -2,13 +2,8 @@
     const hamOpen = () => {
         const toggle = document.getElementById('toggle')
         const headerNav = document.getElementById('header-nav')
-
-        toggle.addEventListener('click', () => {
-        // activeクラスの付け替え
         headerNav.classList.toggle('open')
-    })
-}
-
+    }
 </script>
 <template>
     <button type="button" class="ham-btn" id="toggle" @click="hamOpen()">
