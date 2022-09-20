@@ -1,6 +1,6 @@
 <script setup>
     const hamOpen = () => {
-        const toggle = document.getElementById('toggle')
+        //const toggle = document.getElementById('toggle')
         const headerNav = document.getElementById('header-nav')
         headerNav.classList.toggle('open')
     }
