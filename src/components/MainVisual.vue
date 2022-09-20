@@ -1,6 +1,6 @@
 <template>
     <div class="mv-img">
-        <img src="./assets/img/mv_photo_pc 1.png" alt="日本を挑戦できる社会に">
+        <img src="../assets/img/mv_photo_pc.png" alt="日本を挑戦できる社会に">
     </div>
 </template>
 <style scoped>
