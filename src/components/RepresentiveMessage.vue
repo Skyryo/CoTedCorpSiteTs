@@ -31,35 +31,33 @@
   </section>
 </template>
 <style scoped>
+  #section-02 {
+    background-image: url(/src/assets/img/otani.png);
+    background-position: 25% 30%;
+    background-color: rgba(255,255,255,0.9);
+    background-blend-mode: lighten;    
+  }
   .message-img {
     display: none;
-  }
-  .section-title-container {
-    display: flex;
-    justify-content: center;
-}
-  .section-title {
-    text-align: center;
-    border: 1px solid;
-    display: inline-block;
-    margin: 20px 0 40px 0;
-    padding: 1rem 2rem;
-    font-size: 1.2rem;
-  }
-  .message-area {
-    position: relative;
   }
    .message-text {
     padding: 2rem 1rem;
     letter-spacing: 2px;
     line-height: 1.8;
-    background-image: url(/src/assets/img/otani.png);
+    /* background-image: url(/src/assets/img/otani.png);
     background-position: 25% 30%;
-    background-color: rgba(255,255,255,0.8);
-    background-blend-mode: lighten;
+    background-color: rgba(255,255,255,0.9);
+    background-blend-mode: lighten; */
   }
 
 @media screen and (min-width: 720px) {
+  #section-02 {
+    background-image: unset;
+    background-position: unset;
+    background-color: unset;
+    background-blend-mode: unset;
+    
+  }
   .section-title {
     font-size: 1.5rem;
     margin: 80px 0;
@@ -73,7 +71,7 @@
   .message-img {
     display: block;
     width: 70%;
-    opacity: 0.7;
+    opacity: 0.6;
   }
   .message-text {
     width: 50%;

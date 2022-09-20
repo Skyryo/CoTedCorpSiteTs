@@ -7,7 +7,6 @@ html {
   color: #2D0425;
   scroll-behavior: smooth;
 }
-
 @media screen and (min-width:720px) {
   html {
     font-size: 16px;
@@ -22,4 +21,19 @@ section {
 .container-1280 {
   max-width: 1280px;
   margin: 0 auto;
+}
+/*--------
+セクションタイトル中央ぞろえ
+--------*/
+.section-title-container {
+  display: flex;
+  justify-content: center;
+}
+.section-title {
+  text-align: center;
+  border: 1px solid;
+  display: inline-block;
+  margin: 20px 0;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
 }

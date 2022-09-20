@@ -5,6 +5,7 @@ import MainVisual from '../components/MainVisual.vue';
 import CorporatePhilosophy from '../components/CorporatePhilosophy.vue';
 import SectionTitle from '../components/SectionTitle.vue';
 import RepresentiveMessage from '../components/RepresentiveMessage.vue';
+import BusinessContent from '../components/BusinessContent.vue';
 
 </script>
 <template>
@@ -13,6 +14,7 @@ import RepresentiveMessage from '../components/RepresentiveMessage.vue';
         <MainVisual />
         <CorporatePhilosophy />
         <RepresentiveMessage>代表メッセージ</RepresentiveMessage>
+        <BusinessContent>事業内容</BusinessContent>
         <TheFooter />
     </div>
 </template>
