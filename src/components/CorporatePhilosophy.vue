@@ -18,7 +18,7 @@
         },
         {
             id: 3,
-            mvv: 'Mission',
+            mvv: 'Value',
             title:'「キョウソウ」と「シンカ」の追求',
             description: '',
             mvvList:['共創しているか 真価しているか', '競争しているか  深化しているか', '共想しているか  進化しているか'],
@@ -56,6 +56,13 @@
         line-height: 2rem;
         letter-spacing: 2px;
     }
+    .mvv-1::before, .mvv-2::before,.mvv-3::before {
+        content: "";
+        border-bottom: 1px solid #2d0425;
+        display: block;
+        position: relative;
+        top: 3rem;
+    }
     @media screen and (min-width: 720px) {
         .mvv-h2 {
             font-size: 3rem;
@@ -69,6 +76,12 @@
         }
         .mvv-title {
             font-size: 1.6rem;
+        }
+        .mvv-1::before, .mvv-2::before,.mvv-3::before {
+            width: 50%;
+        }
+        .mvv-2::before {
+            left: 50%;
         }
     }
 </style>

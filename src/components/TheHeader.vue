@@ -14,9 +14,17 @@
             href:'/#section-03'
         },
     ]
+    window.addEventListener('scroll', () => {
+        let scrollHeiht = window.scrollY;
+        if (scrollHeiht > 350) {
+            document.getElementById('header').style.backgroundColor = '#fff';
+        }else {
+            document.getElementById('header').style.backgroundColor = 'transparent';
+        }
+    })
 </script>
 <template>
-    <div class="header container-1280">
+    <div class="header container-1280" id="header">
         <div class="header-img">
             <router-link to="/">
                 <img src="../assets/img/headerLogo.png"  style="height:40px" alt="OASISロゴ">
@@ -27,9 +35,9 @@
             <li class="nav-item" v-for="navItem in navItems">
                 <a class="nav-link" :href="navItem.href">{{navItem.value}}</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <router-link to="/form">お問い合わせ</router-link>
-            </li>
+            </li> -->
         </nav>
     </div>
 </template>
@@ -40,6 +48,8 @@
         align-items: center;
         position: fixed;
         width: 100%;
+        z-index: 20;
+        transition:  .5s;
     }
     .header-img {
         height: 40px;

@@ -109,6 +109,7 @@ const BusiContentItems = ref([
 }
 .bc-name {
   font-size: 1.5rem;
+  font-weight: bold;
 }
 .bc-subtitle {
   font-size: 0.9rem;
