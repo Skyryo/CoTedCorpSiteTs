@@ -68,7 +68,7 @@ const BusiContentItems = ref([
   </section>
 </template>
 <style scoped>
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 1024px) {
   .bc-container {
     display: flex;
   }
