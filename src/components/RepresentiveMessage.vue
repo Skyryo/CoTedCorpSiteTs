@@ -39,7 +39,7 @@
   }
   .message-img {
     display: none;
-  }
+  } 
    .message-text {
     padding: 2rem 1rem;
     letter-spacing: 2px;
@@ -50,7 +50,7 @@
     background-blend-mode: lighten; */
   }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 1024px) {
   #section-02 {
     background-image: unset;
     background-position: unset;
